@@ -120,15 +120,6 @@ section{
   padding: 5px ;
   font-family: 'Roboto', sans-serif;
 }
-.signup{
-  max-width: 600px;
-  margin: auto;
-  margin-top: 50px;
-}
-.signupHeader{
-  font-weight: bold;
-  text-align: center;
-}
 .inquery{
   width: 70%;
   margin: auto;
@@ -191,8 +182,31 @@ h4{
   margin: 0;
 }
 .icon img{
-height: 55px;
-width: 50px;
+height: 60px;
+width: 55px;
+}
+.footer {
+	min-height: 20%;
+	width: 88%;
+	background-color: black;
+	color: white;
+	flex-direction: column;
+	text-align: center;
+	padding: 5rem;
+}
+.footer .footer-contact {
+	padding: 15px;
+}
+.footer .footer-contact .footer-contact-heading {
+	font-size: 2.5rem;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-bottom: 10px;
+}
+.footer .footer-contact .footer-contact-info {
+	font-size: 1.4rem;
+	padding-top: 5px;
+	letter-spacing: .2rem;
 }
 footer p{
   text-align: center;
@@ -201,4 +215,3 @@ footer p{
  .copyright{
      color: tomato ;
  }
- 
